@@ -1,0 +1,32 @@
+/* Reset all transformations and transitions */
+.form-control,
+.form-select,
+.btn,
+.card,
+.alert {
+  transform: none !important;
+  transition: none !important;
+  box-shadow: none !important;
+  -webkit-transform: none !important;
+  -webkit-transition: none !important;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-select:hover,
+.form-select:focus,
+.btn:hover,
+.btn:focus,
+.card:hover,
+.alert:hover {
+  transform: none !important;
+  transition: none !important;
+  box-shadow: none !important;
+  -webkit-transform: none !important;
+  -webkit-transition: none !important;
+}
+
+/* Disable any animations */
+* {
+  animation: none !important;
+} 
